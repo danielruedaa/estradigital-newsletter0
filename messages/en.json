@@ -1,0 +1,12 @@
+{
+  "admin/editor.communication-icon-list.blockTitle": "List of communication icons",
+  "admin/editor.communication-icon-list.title": "Title",
+  "admin/editor.communication-icon-list.titleDescription": "Content customizable with HTML and CSS",
+  "admin/editor.communication-icon-list.titleIcons": "Icon list",
+  "admin/editor.communication-icon-list.iconImage": "Icon image",
+  "admin/editor.communication-icon-list.iconLink": "Icon link",
+  "admin/editor.communication-icon-list.iconOpenNewTab": "Open link in a new tab",
+  "admin/editor.communication-icon-list.isFixed": "Fix on scroll",
+  "admin/editor.communication-icon-list.stylesTitle": "Custom styles",
+  "admin/editor.communication-icon-list.stylesDescription": "Accepts css3 properties in the following format => key: value separated by an enter."
+}

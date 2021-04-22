@@ -1,0 +1,12 @@
+{
+  "admin/editor.communication-icon-list.blockTitle": "Lista de iconos de comunicación",
+  "admin/editor.communication-icon-list.title": "Titulo",
+  "admin/editor.communication-icon-list.titleDescription": "Contenido personalizable con HTML y CSS",
+  "admin/editor.communication-icon-list.titleIcons": "Lista de iconos",
+  "admin/editor.communication-icon-list.iconImage": "Imagen del icono",
+  "admin/editor.communication-icon-list.iconLink": "Link del icono",
+  "admin/editor.communication-icon-list.iconOpenNewTab": "Abrir link en una nueva pestaña",
+  "admin/editor.communication-icon-list.isFixed": "Fijar al hacer scroll",
+  "admin/editor.communication-icon-list.stylesTitle": "Estilos personalizados",
+  "admin/editor.communication-icon-list.stylesDescription": "Acepta propiedades css3 en el siguiente formato => key:value separadas por un enter."
+}

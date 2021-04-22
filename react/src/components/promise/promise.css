@@ -1,0 +1,77 @@
+.promiseContainer {
+  display: flex;
+  align-items: center;
+}
+
+.promiseContainer > div {
+  width: 100%;
+}
+
+.promiseItemContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.promiseItemLine {
+  flex-direction: initial;
+  align-items: center;
+}
+
+.promiseItemImage {}
+
+.promiseItemTitle {}
+
+.promiseItemDescription {}
+
+.flexspace {
+  flex-grow: 1;
+}
+
+
+@media (max-width: 600px) {
+  .promiseContainer .flexRowContent {
+    display: flex;
+  }
+
+  .promiseItemContainer {
+    margin: 0;
+  }
+
+  .promiseItemContainer .promiseItemImage {
+    width: 77px !important;
+    height: 77px !important;
+  }
+
+  .promiseItemDescription {
+    display: none;
+  }
+
+  .promiseItemTitle {
+    font-size: 12px !important;
+    margin: 0;
+  }
+
+  .promiseContainer {
+    height: 170px !important;
+  }
+
+  .promiseContainer :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 25% !important;
+  }
+
+  .promiseItemContainer {
+    padding: 0 !important;
+  }
+
+  .promiseItemTitle {
+    margin-bottom: 0 !important;
+    padding: 10px 10px 0;
+  }
+
+  .promiseItemLine {
+    flex-direction: column;
+  }
+}

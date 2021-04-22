@@ -1,0 +1,10 @@
+.containerWhatsapp {}
+.containerWhatsappLink {}
+.containerWhatsappIconDefault {}
+.containerWhatsappDummyContainer {}
+.containerWhatsappLabel {}
+.containerWhatsappLinkFixed {
+  position: fixed !important;
+  bottom: 50px !important;
+  right: 50px !important;
+}

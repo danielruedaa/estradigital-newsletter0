@@ -1,0 +1,12 @@
+query($acronym: String!, $fields: [String]!, $id: String!) {
+  document(
+    acronym: $acronym,
+    fields:$fields,
+    id:$id
+  ) {
+    fields {
+      key,
+      value
+    }
+  }
+}

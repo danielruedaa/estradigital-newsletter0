@@ -1,0 +1,75 @@
+.newsletterContainer {}
+
+.newsletterInput {}
+
+.newsletterCheckbox {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.newsletterCheckbox a {
+  color: #B5B5B5;
+}
+
+.newsletterButton {
+  margin-left: 10px;
+}
+
+.newsletterTermsMessage {}
+
+.newsletterBeforeHtml {}
+
+.newsletterContentForm {}
+
+.newsletterInputAndButtonContainer {}
+
+.newsletterCheckboxContainer {}
+
+.newsletterTermsErrorContainer {}
+
+.newsletterContentForm {}
+
+.newsletterAfterHtml {}
+
+.newsletterDefaultError {}
+
+.newsletterInputErrorContainer {}
+
+.newsletterFormContainer  {}
+
+.newsletterDefaultError,
+.newsletterTermsMessage {
+  color: red;
+}
+
+.newsletterTermsText {
+  margin-left: 10px;
+}
+
+@media (min-width: 600px) {
+
+  .newsletterContainer {
+    height: 300px;
+  }
+
+  .newsletterContainer,
+  .newsletterInputAndButtonContainer {
+    display: flex;
+  }
+
+  .newsletterBeforeHtml,
+  .newsletterContentForm {
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newsletterBeforeHtml {
+    height: 100%;
+  }
+}
+
+.newsletterButtonWithIcon {}

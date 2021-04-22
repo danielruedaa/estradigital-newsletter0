@@ -1,0 +1,472 @@
+.contianerFinancing {}
+.contianerOrderNumber {
+  font-size: 45px;
+  color: #59595B;
+  padding: 0 0 20px 0;
+  border-bottom: 2px solid #59595B;
+  display: flex;
+  align-items: center;
+}
+.contianerOrderNumber svg {
+  margin-right: 10px;
+}
+.contianerOrderForm {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px 15px;
+  grid-auto-rows: minmax(100px, auto);
+  margin-top: 10px;
+  grid-template-areas: "firstName SecondName documentType email"
+  "surName secondSurName document phone"
+}
+
+.contianerOrderFormItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contianerOrderFormItem {
+ 
+}
+
+.contianerOrderFormItemLabel {
+  color: rgba(89, 89, 91, .5);
+  font-size: 14px;
+  margin: 0 0 10px;
+}
+
+.contianerOrderFormItemInput {
+  height: 50px;
+  padding: 0 24px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: 2px solid #D5752D !important;
+  color: #59595B;
+  outline: none;
+}
+
+.contianerOrderFormItemInput:disabled {
+  border: 1px solid #A5A5A5 !important;
+  background: #F0F0F0;
+  color: #A5A5A5;
+  
+}
+
+.contianerSendOrder {
+  display: grid;
+  grid-template-columns: 50% 40%;
+  grid-gap: 10px 15px;
+  grid-auto-rows: minmax(100px, auto);
+  margin-top: 10px;
+  grid-gap: 10%;
+  margin-top: 50px;
+}
+
+.contianerOrderExample {
+  margin-left: 10px;
+  cursor: pointer;
+  color: #D5752D;
+  position: relative;
+}
+
+.contianerModalExample {
+  display: flex;
+}
+
+.contianerModalExampleImage {
+  width: 50%;
+}
+.modalExampleImage {}
+.modalExampleDescription {
+  width: 50%;
+  padding-left: 50px;
+  padding-right: 20px;
+}
+.modalExampleDescriptionIcon {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background: #D5752D;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modalExampleDescriptionTitle {
+  color: #59595B;
+  font-size: 35px;
+  border-bottom: 1px solid #59595B;
+  padding: 25px 0;
+  font-weight: bold;
+}
+.modalExampleDescriptionBody {
+  color: #59595B;
+  font-size: 16px;
+  padding-top: 25px;
+}
+
+.contianerOrderValidation {
+  border: 1px dashed #B5B5B5;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 375px;
+  padding: 0 100px;
+  flex-direction: column;
+}
+.contianerOrderFormValidation {
+  width: 100%;
+}
+
+.contianerOrderFormValidationLabel {
+  display: flex;
+  color: #59595B;
+  font-size: 16px;
+  font-weight: bold;
+  align-items: center;
+}
+.contianerOrderFormValidationInput {
+  border: 2px solid #D5752D !important;
+  border-radius: 5px;
+  height: 50px;
+  width: calc(100% - 175px);
+  padding: 0 20px;
+  outline: none;
+}
+
+.contianerOrderFormValidationButtonLabel {
+  width: 165px;
+  height: 43px;
+  border: 2px solid #59595B;
+  border-radius: 100px;
+  color: #59595B;
+  font-weight: bold;
+  background: #ffffff;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 15px;
+  cursor: pointer;
+  outline: none;
+}
+.contianerOrderFormContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.contianerOrderFormValidatioMessage{
+  min-height: 60px;
+  width: 100%;
+  background: transparent linear-gradient(242deg, #9438A7 0%, #DC146E 100%) 0% 0% no-repeat padding-box;
+  margin-top: 20px;
+  display: flex;
+}
+.contianerOrderFormValidatioMessageClose {
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  border-left: 1px solid #ffffff;
+  cursor: pointer;
+}
+.contianerOrderFormValidatioMessageLabel {
+  width: calc(100% - 60px);
+  align-items: center;
+  padding: 17px;
+  color: #ffffff;
+  font-size: 14px;
+}
+.contianerOrderQuotas,
+.contianerOrderQuotasQuantity {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #E5E5E5;
+}
+.contianerOrderQuotasGeneral {
+
+}
+.contianerOrderQuotasLabel {
+  color: #59595B;
+  font-size: 18px;
+  font-weight: 100;
+}
+.contianerOrderQuotasValue {
+  color: #59595B;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+.contianerOrderQuotasMultipleLabel {
+  display: flex;
+  flex-direction: column;
+}
+.contianerOrderQuotasSubLabel {
+  color: #B5B5B5;
+  font-size: 14px;
+  margin-top: 3px;
+}
+.contianerSendFinancing {}
+
+.contianerSendFinancingButton {
+  width: 213px;
+  height: 50px;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  background: #D5752D;
+}
+
+.contianerSendFinancingButton:disabled {
+  background: #B5B5B5;
+}
+
+.contianerOrderQuotasQuantity {
+  flex-direction: column;
+}
+.contianerOrderQuotasQuantityLabel {
+  color: rgba(89, 89, 91, .5);
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.contianerOrderQuotasQuantitySelect {
+  width: 125px;
+  height: 50px;
+  border: 2px solid #D5752D;
+  border-radius: 5px;
+  color: #59595B;
+  display: flex;
+  align-items: center;
+}
+
+.contianerOrderQuotasQuantitySelect > div {
+  width: 100%;
+}
+
+.contianerOrderQuotasQuantitySelect div {
+  border: none;
+  color: #59595B;
+}
+
+.contianerOrderQuotasQuantityOption {}
+
+:global(.vtex-store-footer-2-x-footerLayout) {
+  display: none;
+}
+
+:global(.vtex-order-placed-2-x-orderPlacedWrapper) {
+  padding-top: 10px;
+}
+
+:global(.vtex-modal__overlay) {
+  background: transparent !important;
+}
+
+:global(.vtex-modal__modal) {
+  box-shadow: 0px 20px 30px #00000029 !important;
+  border-radius: 0;
+  background: #F0F0F0;
+}
+
+:global(.vtex-modal__close-icon) {
+  fill: #D5752D;
+  cursor: pointer;
+  width: 24px !important;
+  height: 24px !important;
+}
+
+:global(.vtex-modal__modal) button {
+  outline: none;
+}
+
+:global(.vtex-modal__modal) :global(.vtex-styleguide-9-x-scrollBar) {
+  padding: 30px !important;
+}
+
+.firstName {
+  grid-column: firstName;
+  grid-row: firstName;
+}
+.SecondName {
+  grid-column: SecondName;
+  grid-row: SecondName;
+}
+.documentType {
+  grid-column: documentType;
+  grid-row: documentType;
+}
+.email {
+  grid-column: email;
+  grid-row: email;
+}
+.surName {
+  grid-column: surName;
+  grid-row: surName;
+}
+.secondSurName {
+  grid-column: secondSurName;
+  grid-row: secondSurName;
+}
+.document {
+  grid-column: document;
+  grid-row: document;
+}
+.phone {
+  grid-column: phone;
+  grid-row: phone;
+}
+
+
+@media (max-width: 600px) {
+
+  .contianerOrderNumber svg {
+    display: none;
+  }
+
+  .contianerOrderNumber {
+    font-size: 22px;
+  }
+
+  .contianerOrderNumber svg {
+    width: 45px;
+    height: 45px;
+  }
+
+  .contianerOrderForm {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "firstName"
+    "surName"
+    "SecondName"
+    "secondSurName"
+    "documentType"
+    "document"
+    "email"
+    "phone"
+  }
+
+  .contianerSendOrder {
+    grid-template-columns: 100%
+  }
+
+  .contianerOrderValidation {
+    padding: 28px;
+    min-height: initial;
+  }
+
+  .contianerOrderFormContainer {
+    flex-direction: column;
+  }
+
+  .contianerOrderFormValidationInput,
+  .contianerOrderFormValidationButtonLabel {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .contianerOrderFormValidationButtonLabel {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .contianerSendFinancingButton {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .contianerModalExample {
+    flex-direction: column;
+    margin-top: 40px;
+  }
+
+  .contianerModalExample > div {
+    width: 100%;
+  }
+
+  .contianerModalExampleImage {
+    height: 180px;
+    overflow: hidden;
+  }
+
+  .modalExampleDescriptionIcon {
+    display: none;
+  }
+
+  .modalExampleDescription {
+    padding: 0;
+  }
+
+  .modalExampleDescriptionTitle {
+    font-size: 24px;
+  }
+
+  .modalExampleDescriptionBody {
+    font-size: 14px;
+  }
+
+  .contianerModalLogin {
+    margin: 0;
+    flex-direction: column-reverse;
+  }
+
+  .contianerModalLogin .contianerModalExampleImage {
+    height: initial;
+    margin-top: 20px;
+  }
+
+  .contianerModalLogin :global(.vtex-login-2-x-options) {
+    min-width: initial !important;
+  }
+
+  .contianerModalExampleImage :global(.vtex-login-2-x-content) {
+    height: 350px !important;
+    min-height: 350px !important;
+  }
+
+  .contianerModalLogin .modalExampleDescriptionTitle {
+    padding-top: 0;
+  }
+}
+
+.contianerModalExampleImage :global(.vtex-login-2-x-content)::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 60px;
+  background-image: url(https://celsia.vtexassets.com/assets/vtex.file-manager-graphql/images/7355c964-33e5-485d-86c0-b73ecb6cc34d___b250be0a91b2a356dda35e38c4a5b5cd.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contianerModalExampleImage :global(.vtex-login-2-x-content) {
+  min-height: 400px;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contianerModalLogin {
+
+}
+
+.contianerModalLoginGeneral {
+
+}
+
+.contianerSendFinancingButtonDisabled {
+  filter: grayscale(1);
+  opacity: 0.5;
+}
+
+
+:global(.vtex-toast) {
+  background: #59595B !important;
+}

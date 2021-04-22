@@ -1,0 +1,43 @@
+.container_contact {
+}
+
+.column_beforeHTML {
+}
+
+.column_formContact {
+}
+
+.inputGroupContact {
+}
+
+.inputFieldContact {
+}
+
+.fieldMsgErrorContact {
+}
+
+.inputGroupCheckContactWhitError {
+}
+
+.inputGroupCheckContact {
+  display: flex;
+}
+
+.inputGroupCheckContact :global(.vtex-checkbox__container) {
+  margin-right: 10px;
+}
+
+.contactTitle {
+}
+
+.formTitle {
+}
+
+.textareaFieldContact {
+}
+
+.primaryContactBtn {
+}
+
+.contactFormError {
+}

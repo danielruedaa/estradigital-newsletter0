@@ -1,0 +1,28 @@
+{
+  "name": "newsletter0",
+  "vendor": "estradigital",
+  "version": "0.0.0",
+  "vtex-version": "0.0.0",
+  "builders": {
+    "react": "3.x",
+    "store": "0.x",
+    "messages": "1.x"
+  },
+  "title": "Neswletter",
+  "description": "Newsletter VTEX IO",
+  "scripts": {
+    "postreleasy": "vtex publish --verbose"
+  },
+  "dependencies": {
+    "vtex.store": "2.x",
+    "vtex.styleguide": "9.x",
+    "vtex.store-graphql": "2.x",
+    "vtex.store-icons": "0.x",
+    "vtex.flex-layout": "0.x",
+    "vtex.order-placed": "2.x",
+    "vtex.order-manager": "0.x",
+    "vtex.login": "2.x",
+    "chefcompany.store-utils": "0.x"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
