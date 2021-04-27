@@ -68,10 +68,21 @@ const Newsletter = ({
 
   const schema = {
     input: (<div className={NewsletterStyle.newsletterInput}>
-      <Input prefix={<Icon id={inputWithIcon} size={inputSize}/>} id="newsletter-input" placeholder={placeholderText} value={email} onChange={onChangeEmail} onBlur={validateEmail} name="newsletter" errorMessage={showEmailMessage && showDefaultInputError && errorEmailMessage} />
+      <Input prefix={<Icon id={inputWithIcon} 
+      size={inputSize}/>} 
+      type="email"
+      id="newsletter-input" 
+      placeholder={placeholderText} 
+      value={email} 
+      onChange={onChangeEmail} 
+      onBlur={validateEmail} 
+      name="newsletter" 
+      errorMessage={showEmailMessage && showDefaultInputError && errorEmailMessage} />
     </div>),
     terms: useTerms && (<div className={NewsletterStyle.newsletterCheckbox}>
-      <Checkbox checked={check} onChange={onChangeTerms} /> <div className={NewsletterStyle.newsletterTermsText}><DangerousHTML html={terms} tagName="div" /></div>
+      <Checkbox checked={check} onChange={onChangeTerms} /> 
+      <div className={NewsletterStyle.newsletterTermsText}>
+        <DangerousHTML html={terms} tagName="div" /></div>
     </div>),
     button: (<div className={NewsletterStyle.newsletterButton}>
       <Button
@@ -90,7 +101,7 @@ const Newsletter = ({
   }
 
   return (
-    <div className={NewsletterStyle.newsletterContainer}>
+    <form className={NewsletterStyle.newsletterContainer}>
       <div className={NewsletterStyle.newsletterBeforeHtml}>
         <DangerousHTML html={beforeHtml} tagName="div" />
       </div>
@@ -107,7 +118,7 @@ const Newsletter = ({
         </div>
       }
       <div className={NewsletterStyle.newsletterAfterHtml}><DangerousHTML html={afterHtml} tagName="div" /></div>
-    </div>
+    </form>
   )
 }
 

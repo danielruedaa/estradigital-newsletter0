@@ -1,21 +1,21 @@
 {
-  "chef-newsletter": {
+  "newsletter0": {
     "component": "Newsletter",
     "composition": "children"
   },
-  "chef-promise": {
+  "chef-promise0": {
     "component": "Promise"
   },
-  "isobar-contact": {
+  "isobar-contact0": {
     "component": "Contact"
   },
-  "celsia-financing": {
+  "celsia-financing0": {
     "component": "Financing"
   },
-  "isobar-whatsapp": {
+  "isobar-whatsapp0": {
     "component": "Whatsapp"
   },
-  "isobar-communication-icon-list": {
+  "isobar-communication-icon-list0": {
     "component": "CommunicationIconList"
   }
 }

@@ -155,13 +155,13 @@ const NewsLetterWrapper = ({
 }
 
 NewsLetterWrapper.defaultProps = {
-  submitText: 'Suscríbete',
+  submitText: 'Suscríbete test',
   placeholderText: 'Ingresa tu correo',
   regex: '^[A-z0-9+_-]+(?:\.[A-z0-9+_-]+)*@(?:[A-z0-9](?:[A-z0-9-]*[A-z0-9])?\.)+[A-z0-9](?:[A-z0-9-]*[A-z0-9])?$',
-  errorEmailMessage: 'Please, enter a valid email.',
+  errorEmailMessage: 'Por favor ingrese un email válido.',
   errorTermsMessage: 'Pelase, accept terms',
-  terms: '<div>Terms <a href="/">link</a></div>',
-  beforeHtml: '<h2>Your HTML here!</h2>',
+  terms: '<div>Al comprar estarás aceptando el tratamiento de datos personales de acuerdo a la <a href="https://www.healthy-america.com.co/politica-de-tratamiento-de-datos-personales"> políticas de privacidad.</a></div>',
+  beforeHtml: '<h2>SUSCRÍBETE</h2>',
   afterHtml: '',
   useTerms: true,
   checkedDefault: false,
@@ -182,7 +182,7 @@ NewsLetterWrapper.schema = {
     submitText: {
       title: 'Submit text',
       type: 'string',
-      default: 'Suscríbete'
+      default: 'Suscríbeme'
     },
     placeholderText: {
       title: 'Submit text',
@@ -202,7 +202,7 @@ NewsLetterWrapper.schema = {
     terms: {
       title: 'Terms description (HTML)',
       type: 'string',
-      default: '<div>Terms <a href="/">link</a></div>',
+      default: '<div>Al comprar estarás aceptando el tratamiento de datos personales de acuerdo a la <a href="https://www.healthy-america.com.co/politica-de-tratamiento-de-datos-personales"> políticas de privacidad.</a></div>',
       widget: {
         'ui:widget': 'textarea'
       }
